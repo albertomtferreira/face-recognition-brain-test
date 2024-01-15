@@ -25,7 +25,7 @@ const returnClarifaiRequestOptions = (imageUrl) => {
     const APP_ID = 'test';
     // Change these to whatever model and image URL you want to use
     const MODEL_ID = 'face-detection'; 
-    const IMAGE_URL = 'imageUrl';
+    const IMAGE_URL = imageUrl;
 
     const raw = JSON.stringify({
       "user_app_id": {
